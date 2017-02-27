@@ -1,0 +1,14 @@
+<p>
+  contacts-list works!
+</p>
+<ul>
+  <li *ngFor="let contact of contacts">
+    <a [routerLink]="['/contactdetails', contact.id]">{{contact.lastName}}, {{contact.firstName}}</a>
+  </li>
+</ul>
+
+<ol>
+  <li *ngFor="let item of items | async">
+    {{item.firstName}} {{item.lastName}} | {{item.email}} | {{item.phone}}
+  </li>
+</ol>

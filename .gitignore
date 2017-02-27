@@ -23,6 +23,9 @@
 !.vscode/launch.json
 !.vscode/extensions.json
 
+#private
+*.priv.json
+
 # misc
 /.sass-cache
 /connect.lock
@@ -39,3 +42,6 @@ testem.log
 #System Files
 .DS_Store
 Thumbs.db
+
+#Archives
+*.7z
